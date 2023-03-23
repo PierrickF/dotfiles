@@ -1,0 +1,31 @@
+colors:
+  primary:
+    background: '#282828'
+key_bindings:
+        # ctrl+shift+n opens new window in same directory
+        - { key: N,   mods: Control|Shift, action: SpawnNewInstance }
+
+window:
+  decorations: full
+  dynamic_padding: true
+
+font:
+  normal:
+    family: Inconsolata
+    style: Regular
+
+  bold:
+    family: Inconsolata
+    style: Bold
+
+  italic:
+    family: Inconsolata
+    style: Italic
+
+  bold_italic:
+    family: Inconsolata
+    style: Bold Italic
+
+  # External monitor is 15
+  # Laptop monitor is 10
+  size: 15
