@@ -1,4 +1,7 @@
-FILE / DIR	<-	SYMLINK<br>
+```
+FILE / DIR	<-	SYMLINK
+```
+
 ```
 .alacritty.yml	<-	~/.alacritty.yml
 fish/		<-	~/.config/fish/
