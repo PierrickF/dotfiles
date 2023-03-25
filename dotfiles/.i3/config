@@ -72,34 +72,34 @@ bindsym Mod1+Shift+0 move container to workspace number $ws10
 bindsym Mod1+Shift+c reload
 
 # Resize window (you can also use the mouse for that)
-mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-        bindsym $left       resize shrink width 1 px or 1 ppt
-        bindsym $down       resize grow height 1 px or 1 ppt
-        bindsym $up         resize shrink height 1 px or 1 ppt
-        bindsym $right      resize grow width 1 px or 1 ppt
+mode "resize"   {
+                # These bindings trigger as soon as you enter the resize mode
+                bindsym $left	resize shrink width 1 px or 1 ppt
+                bindsym $down	resize grow height 1 px or 1 ppt
+                bindsym $up	resize shrink height 1 px or 1 ppt
+                bindsym $right	resize grow width 1 px or 1 ppt
 
-        # back to normal: Enter or Escape or Mod1+r
-        bindsym Mod1+r mode "default"
-}
+                # back to normal: Enter or Escape or Mod1+r
+                bindsym Mod1+r	mode "default"
+                }
 
 # Enter resize mode
 bindsym Mod1+r mode "resize"
 
 # Start i3bar with i3status
 bar {
-	output eDP-1
-	workspace_buttons yes
-	tray_output none
-	font pango:monospace 12
-	mode hide
-	hidden_state hide
-	colors {
-		background #282828
-		statusline #ebdbb2
-		}
-	status_command i3status
-	}
+    output eDP-1
+    workspace_buttons yes
+    tray_output none
+    font pango:monospace 12
+    mode hide
+    hidden_state hide
+    status_command i3status
+    colors  {
+            background #282828
+            statusline #ebdbb2
+            }
+    }
 
 # Hide windows title bar
 default_border pixel
@@ -107,7 +107,7 @@ default_border pixel
 # Color borders of active window
 # gruvbox orange -> #d65d0e
 # arch blue -> #1793d0
-client.focused #d65d0e #d65d0e #d65d0e #d65d0e
+client.focused #1793d0 #1793d0 #1793d0 #1793d0
 client.focused_inactive #282828 #282828 #282828 #282828
 client.unfocused #282828 #282828 #282828 #282828
 client.background #282828
