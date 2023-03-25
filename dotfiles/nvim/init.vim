@@ -55,17 +55,15 @@ let g:airline_section_z = '%l/%L-%c'
 let g:airline#extensions#wordcount#enabled = 0
 let g:airline#extensions#ale#enabled = 1
 
-" Ruby => 2 spaces for indentation
+" 2 spaces for indentation
 autocmd FileType ruby setlocal ts=2 sts=0 sw=2 et ai sta
-" Rust => 4 spaces for indentation
-autocmd FileType rust setlocal ts=4 sts=0 sw=4 et ai sta
-" Bash => 2 spaces for indentation
 autocmd FileType sh setlocal ts=2 sts=0 sw=2 et ai sta
-" Awk => 4 spaces for indentation
-autocmd FileType awk setlocal ts=4 sts=0 sw=4 et ai sta
-" Yaml => 2 spaces for indentation
-autocmd FileType yml setlocal ts=2 sts=0 sw=2 et ai sta
 autocmd FileType yaml setlocal ts=2 sts=0 sw=2 et ai sta
+autocmd FileType yml setlocal ts=2 sts=0 sw=2 et ai sta
+" 4 spaces for indentation
+autocmd FileType awk setlocal ts=4 sts=0 sw=4 et ai sta
+autocmd FileType i3config setlocal ts=4 sts=0 sw=4 et ai sta
+autocmd FileType rust setlocal ts=4 sts=0 sw=4 et ai sta
 
 " Git commit message width
 autocmd FileType gitcommit setlocal tw=72
