@@ -4,6 +4,8 @@ end
 
 # remove greeting prompt
 set -U fish_greeting
+# set full path name in prompt
+set -U fish_prompt_pwd_dir_length 0
 
 # remove path underlining
 set fish_color_valid_path
