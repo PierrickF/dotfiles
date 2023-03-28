@@ -15,7 +15,7 @@ set TERM "xterm-256color"
 alias bye="i3-msg exit"
 alias rustbook="rustup doc --book"
 alias disable_gpu="optimus-manager --no-confirm --switch integrated"
-alias rm_deps="sudo pacman -Rsn $(pacman -Qdtq)"
+alias rm_deps="sudo pacman -Rsn (pacman -Qdtq)"
 
 # variables
 set -Ux BROWSER firefox
