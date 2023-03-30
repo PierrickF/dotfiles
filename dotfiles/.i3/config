@@ -107,7 +107,7 @@ default_border pixel
 # Color borders of active window
 # gruvbox orange -> #d65d0e
 # arch blue -> #1793d0
-client.focused #1793d0 #1793d0 #1793d0 #1793d0
+client.focused #d65d0e #d65d0e #d65d0e #d65d0e
 client.focused_inactive #282828 #282828 #282828 #282828
 client.unfocused #282828 #282828 #282828 #282828
 client.background #282828
@@ -154,7 +154,7 @@ bindsym Mod1+z exec i3lock
 bindsym Mod1+Shift+space floating toggle
 
 # Set mouse speed on login
-exec_always --no-startup-id xinput set-prop 'Logitech USB Receiver' 'libinput Accel Speed' -0.7
+exec_always --no-startup-id xinput set-prop 'Logitech USB Receiver' 'libinput Accel Speed' 0
 
 # Activate capslock remap on login
 exec_always --no-startup-id setxkbmap -layout us -variant intl -option ctrl:swapcaps

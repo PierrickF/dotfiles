@@ -7,4 +7,4 @@
 setxkbmap -layout us -variant intl -option ctrl:swapcaps
 
 # Set mouse speed
-xinput set-prop 'Logitech USB Receiver' 'libinput Accel Speed' -0.7
+xinput set-prop 'Logitech USB Receiver' 'libinput Accel Speed' 0
