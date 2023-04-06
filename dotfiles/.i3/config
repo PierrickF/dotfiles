@@ -148,7 +148,7 @@ exec --no-startup-id xset s off
 exec --no-startup-id xset -dpms
 
 # Lock the screen
-bindsym Mod1+z exec i3lock
+bindsym Mod1+z exec dm-tool lock
 
 # Toggle between floating and tiling
 bindsym Mod1+Shift+space floating toggle
