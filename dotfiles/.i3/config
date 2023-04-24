@@ -113,7 +113,7 @@ client.unfocused #282828 #282828 #282828 #282828
 client.background #282828
 
 # Set wallpaper
-exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/arch_logo.png
+exec --no-startup-id feh --bg-fill ~/pictures/wallpapers/kiki.jpg
 
 # Brightness function keys
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5

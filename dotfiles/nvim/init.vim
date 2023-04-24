@@ -61,6 +61,7 @@ autocmd FileType sh setlocal ts=2 sts=0 sw=2 et ai sta
 autocmd FileType yaml setlocal ts=2 sts=0 sw=2 et ai sta
 autocmd FileType yml setlocal ts=2 sts=0 sw=2 et ai sta
 autocmd FileType javascript setlocal ts=2 sts=0 sw=2 et ai sta
+autocmd FileType json setlocal ts=2 sts=0 sw=2 et ai sta
 " 4 spaces for indentation
 autocmd FileType awk setlocal ts=4 sts=0 sw=4 et ai sta
 autocmd FileType i3config setlocal ts=4 sts=0 sw=4 et ai sta
