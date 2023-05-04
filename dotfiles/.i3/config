@@ -154,7 +154,8 @@ bindsym Mod1+z exec dm-tool lock
 bindsym Mod1+Shift+space floating toggle
 
 # Set mouse speed on login
-exec_always --no-startup-id xinput set-prop 'Logitech USB Receiver' 'libinput Accel Speed' 0
+# Also set in .profile
+exec_always --no-startup-id xinput set-prop 'Logitech USB Receiver' 'libinput Accel Speed' -0.7
 
 # Activate capslock remap on login
 exec_always --no-startup-id setxkbmap -layout us -variant intl -option ctrl:swapcaps
