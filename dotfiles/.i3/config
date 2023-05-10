@@ -139,6 +139,9 @@ exec_always --no-startup-id reload_monitors
 # Mouse cursor doesn't focus a window on mouseover
 focus_follows_mouse no
 
+# Mouse isn't teleported to a display newly focused
+mouse_warping none
+
 # Send windows to the scratchpad workspace (for background processes)
 bindsym Mod1+minus move scratchpad
 bindsym Mod1+equal scratchpad show
